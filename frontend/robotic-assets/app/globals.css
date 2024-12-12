@@ -1,0 +1,60 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+:root {
+  --font-geist-sans: 'Geist Sans', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* styles/globals.css */
+body {
+  background-color: white; /* Set the background color of the entire webpage to white */
+  color: black; /* Optional: Set the default text color to black */
+}
+/* Custom styles for the button */
+.custom-button {
+  width: 150px; /* Sets the button's width */
+  height: 50px; /* Sets the button's height */
+  border-radius: 8px; /* Adds rounded corners */
+  font-size: 16px; /* Sets font size */
+  font-weight: bold; /* Makes the text bold */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Adds smooth hover effects */
+}
+
+/* Styles for enabled button 
+.enabled-button {
+  background-color: #007bff; /* Blue background for enabled state 
+  color: white; /* White text 
+}
+
+.enabled-button:hover {
+  background-color: #0056b3; /* Darker blue on hover 
+  transform: scale(1.05); /* Slightly enlarge on hover 
+}
+
+/* Styles for disabled button 
+.disabled-button {
+  background-color: #cbd5e1; /* Light gray background for disabled state 
+  color: #9ca3af; /* Light gray text 
+  cursor: not-allowed; /* Disables pointer 
+  transform: none; /* No hover effect 
+}*/
+
